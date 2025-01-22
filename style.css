@@ -874,3 +874,94 @@ section .main .main_image img {
   cursor: pointer;
   margin-left: 5px;
 }
+
+/*----------------------------- Order--------------------------------------------------- */
+
+.order {
+  width: 100%;
+  height: 100vh;
+  padding: 5px 0;
+}
+
+.order h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+
+.order h1 span {
+  color: #facc22;
+  margin-right: 10px;
+}
+
+.order .order_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 15px;
+}
+
+.order .order_main .order_image img {
+  width: 650px;
+}
+
+.order .order_main .order_form {
+  width: 50%;
+  height: 620px;
+  background: #faf3ce;
+  padding: 15px 20px 0 20px;
+  border-radius: 10px;
+}
+
+.order .order_main .order_form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.order .order_main .order_form .order_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 20px;
+  margin-bottom: 30px;
+}
+
+.order .order_main .order_form .order_list p {
+  margin-bottom: 5px;
+}
+
+.order .order_main .order_form .order_list input {
+  width: 350px;
+  border: 2px solid #facc22;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  color: black;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+}
+
+.order .order_main .order_form .order_list textarea {
+  width: 350px;
+  height: 200px;
+  border: 2px solid #facc22;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  color: #000;
+  padding: 10px 5px;
+}
+
+.order .order_main .order_form .order_btn {
+  padding: 10px 20px;
+  border: 2px solid #facc22;
+  text-decoration: none;
+  color: #fff;
+  background-color: #facc22;
+}
+
+.order .order_main .order_form > .order_btn i {
+  margin-right: 8px;
+}
